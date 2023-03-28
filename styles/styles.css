@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #f0e8c5;
+    background-color: #626160;
 }
 
 #mainNav {
@@ -110,3 +110,7 @@ body {
   padding-left: 0.75rem;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
