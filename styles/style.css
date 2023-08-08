@@ -3,7 +3,7 @@
 /* Reset default margin and padding */
 body, ul {
   margin: 0;
-  padding: 50px;
+  padding: 20px 50px 20px;
 }
 
 
@@ -11,7 +11,7 @@ body, ul {
 header {
   background-color: darkred;
   color: white;
-  padding: 20px 20px 50px; /* top, right/left, bottom */
+  padding: 10px 10px 10px; /* top, right/left, bottom */
   display: flex;
   justify-content: flex-end;
 }
@@ -30,5 +30,5 @@ header {
   text-decoration: none;
   color: white;
   font-family: Arial, sans-serif; /* Use a non-serif font */
-  font-size: 18px; /* Adjust the font size */
+  font-size: 20px; /* Adjust the font size */
 }
