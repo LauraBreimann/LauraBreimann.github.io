@@ -11,9 +11,12 @@ body, ul {
 header {
   background-color: darkred;
   color: white;
-  padding: 10px 10px 10px; /* top, right/left, bottom */
+  padding: 5px 10px 5px; /* top, right/left, bottom */
   display: flex;
   justify-content: flex-end;
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Make it full-width */
 }
 
 /* Style the navigation menu */
@@ -31,4 +34,10 @@ header {
   color: white;
   font-family: Arial, sans-serif; /* Use a non-serif font */
   font-size: 20px; /* Adjust the font size */
+}
+
+
+/* Margin for the content area to avoid hiding under the fixed header */
+.content {
+  margin-top: 80px; /* Adjust this value as needed */
 }
