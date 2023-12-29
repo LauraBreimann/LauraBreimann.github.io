@@ -80,3 +80,8 @@ footer {
   display: inline-block;
   margin-right: 10px;
 }
+
+
+.highlight-name {
+  font-weight: bold; /* Make the text bold to highlight your name */
+}
