@@ -1,67 +1,66 @@
 <!-- index.html -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Your Personal Page</title>
     <link rel="stylesheet" href="styles/style.css">
-    <!-- Add your CSS and other head elements here -->
 </head>
-<body>
+<body class="front-page">
     <!-- Include the header directly -->
     <header>
-      <nav class="header-nav">
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="research.html">Research</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="protocols.html">Protocols</a></li>
-              <li><a href="3D-printing.html">3D-printing</a></li>
-              <li><a href="art.html">Art</a></li>
-          </ul>
-      </nav>
-  </header>
-  <div class="content"></div>
- 
-  <!-- First section with image on the left and text on the right -->
- <section class="content">
-    <div class="left">
-        <img src="/img/profile.jpg" alt="Laura">
-    </div>
-    <div class="right">
-        <h1>Welcome to My Personal Page</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-</section>
-    
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="protocols.html">Protocols</a></li>
+                <li><a href="3D-printing.html">3D-printing</a></li>
+                <li><a href="art.html">Art</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- Second section with image on the right and text on the left -->
-<section class="content reversed">
-    <div class="left">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="right">
-        <img src="img/smFISH.jpg" alt="smFISH embryo">
-    </div>
-</section>
+    <!-- Content Section 1 -->
+    <section class="content">
+        <div class="left">
+          <img src="img/profile.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="right">
+            <h1>Hello!</h1>
+            <p>I'm Laura Breimann</p>
+            <p>I'm a scientist, interested in 3D nuclear architecture, transcription, and microscopy.</p>
+        </div>
+    </section>
 
-  <!-- Footer with copyright and social media links -->
-  <footer>
-    <p>&copy; 2023 Laura Breimann. All rights reserved.</p>
-    <ul class="social-media">
-        <li><a href="https://github.com/LauraBreimann"><img src="img/github-mark-white.png" alt="GitHub" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://twitter.com/Laura_Breimann"><img src="img/twitter.png" alt="Twitter" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://genomic.social/@LauraBreimann"><img src="img/Mastodon_Logotype_white.png" alt="Mastodon" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://orcid.org/0000-0001-7702-5749"><img src="img/ORCIDiD_iconbwvector_inverse.png" alt="ORCiD" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://scholar.google.com/citations?user=CfmCibkAAAAJ&hl=en"><img src="img/Google_Scholar_logo.png" alt="Google Scholar" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://www.linkedin.com/in/laura-breimann/"><img src="img/In-White-14@2x.png" alt="Linkedin" style="width: 30px; height: auto;"></a></li>
-        <li><a href="https://www.researchgate.net/profile/Laura-Breimann"><img src="img/icons8-researchgate-512_white.png" alt="ResearchGate" style="width: 30px; height: auto;"></a></li>
-    </ul>
-</footer>  
+    <!-- Content Section 2 -->
+    <section class="content reversed">
+        <div class="left">
+            <img src="img/smFISH.jpg" alt="smFISH Embryo"> 
+        </div>
+        <div class="right">
+            <p>About Me</p>
+            <p>I’m a postdoc at Harvard Medical School in the Ting Wu lab. In the lab, we work on understanding 3D genome architecture using wide-field or super-resolution microscopy and integrative modeling to understand how chromosomes share their space in the nucleus. I’m fascinated by how human homologs occupy space in the nucleus, so I am trying to improve imaging and image analysis methods that will allow us to probe homologous chromosomes.<br><br>
 
+              Before my postdoc, I did a joined Ph.D. at the Max-Delbrueck Center in Berlin with Stephan Preibisch and at NYU with Sevinc Ercan. During my Ph.D., I studied dosage compensation in C. elegans using microscopy and image analysis methods. 
+              
+            </p>
+        </div>
+    </section>
 
-</div>
+    <!-- Footer with copyright and social media links -->
+    <footer>
+        <p>&copy; 2024 Laura Breimann. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="https://github.com/LauraBreimann"><img src="img/github-mark-white.png" alt="GitHub" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://twitter.com/Laura_Breimann"><img src="img/twitter.png" alt="Twitter" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://genomic.social/@LauraBreimann"><img src="img/Mastodon_Logotype_white.png" alt="Mastodon" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://orcid.org/0000-0001-7702-5749"><img src="img/ORCIDiD_iconbwvector_inverse.png" alt="ORCiD" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://scholar.google.com/citations?user=CfmCibkAAAAJ&hl=en"><img src="img/Google_Scholar_logo.png" alt="Google Scholar" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://www.linkedin.com/in/laura-breimann/"><img src="img/In-White-14@2x.png" alt="LinkedIn" style="width: 30px; height: auto;"></a></li>
+            <li><a href="https://www.researchgate.net/profile/Laura-Breimann"><img src="img/icons8-researchgate-512_white.png" alt="ResearchGate" style="width: 30px; height: auto;"></a></li>
+        </ul>
+    </footer>
 
     <!-- Add your JavaScript and footer elements here -->
 </body>
