@@ -41,12 +41,12 @@ header {
 
 .header-nav li {
   display: inline;
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 .header-nav a {
   color: turquoise; /* Change the navigation links to turquoise */
-  font-size: 30px; /* Adjust the font size */
+  font-size: 25px; /* Adjust the font size */
 }
 
 
